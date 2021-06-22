@@ -27,6 +27,7 @@ html{
 }
 
 body{
+    display: flex;
     height: 100vh;
     background: var(--background);
 }
