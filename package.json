@@ -1,0 +1,30 @@
+{
+  "name": "Nlwproject",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido na semana da NLW da Rocketseat - Missão discover - Projeto voltado ao envio e gerenciamento de perguntas anônimas direcioanadas ao admin da página",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon main",
+    "init-db": "node src/db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brennez/Nlw-2020.git"
+  },
+  "keywords": [],
+  "author": "Brenne Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brennez/Nlw-2020/issues"
+  },
+  "homepage": "https://github.com/Brennez/Nlw-2020#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
